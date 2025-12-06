@@ -1,0 +1,212 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Pablo Lozoya — QA Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <a href="index.html" class="logo">JP</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>QA Engineer</h1>
+    <p>Manual & API Testing • Bug Reporting • Functional QA • Test Case Design</p>
+    <div class="buttons">
+      <a href="https://www.linkedin.com/in/juan-pablo-lozoya-lópez-5abb40288" target="_blank" class="btn">LinkedIn</a>
+      <a href="https://github.com/jlozoyalopez" target="_blank" class="btn">GitHub</a>
+    </div>
+  </section>
+</body>
+</html>
+
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Juan Pablo Lozoya</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <a href="index.html" class="logo">JP</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>About Me</h2>
+    <p>
+      I'm a QA Engineer transitioning from customer service and digital content roles into tech.
+      Working in high-volume, bilingual customer support at DoorDash taught me how to analyze
+      complex issues, identify patterns, and collaborate across teams — skills that quickly
+      translated into my QA work.
+    </p>
+    <p>
+      During my training at TripleTen and through hands-on projects, I developed strong abilities
+      in manual testing, API validation, bug reporting, and functional QA documentation. I enjoy
+      breaking systems in the right way and ensuring users get the smoothest possible experience.
+    </p>
+  </section>
+</body>
+</html>
+
+
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Juan Pablo Lozoya</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <a href="index.html" class="logo">JP</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Urban Routes — Functional Testing & Bug Reporting</h3>
+      <p>End‑to‑end manual testing, bug identification, and functional validation for a ride‑hailing app simulation.</p>
+      <a href="https://github.com/jlozoyalopez/qa-project-Urban-Routes-es" target="_blank" class="btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Mobile Ordering App — Test Case Management & Functional QA</h3>
+      <p>Designed structured test cases, executed functional test cycles, and reported defects using clear documentation.</p>
+      <a href="YOUR_SPREADSHEET_LINK_HERE" target="_blank" class="btn">View Spreadsheet</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Automation Scripts with Selenium (In Progress)</h3>
+      <p>Building a small suite of Selenium WebDriver scripts to automate UI flows and validate core user paths.</p>
+      <a href="https://github.com/jlozoyalopez" target="_blank" class="btn">GitHub</a>
+    </div>
+  </section>
+</body>
+</html>
+
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Juan Pablo Lozoya</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <a href="index.html" class="logo">JP</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jlozoyalopez@icloud.com">jlozoyalopez@icloud.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/juan-pablo-lozoya-lópez-5abb40288" target="_blank">Profile</a></p>
+    <p>GitHub: <a href="https://github.com/jlozoyalopez" target="_blank">github.com/jlozoyalopez</a></p>
+  </section>
+</body>
+</html>
+
+
+<!-- styles.css -->
+/* B — Modern Purple/Blue Theme */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+  color: #1f2937;
+}
+.header {
+  background: #4f46e5;
+  padding: 15px 40px;
+  color: white;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #4338ca;
+}
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #6366f1;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+.project-card .btn {
+  background: #4f46e5;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 10px;
+}
