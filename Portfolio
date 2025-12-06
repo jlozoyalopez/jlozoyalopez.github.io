@@ -103,8 +103,7 @@
     <div class="project-card">
       <h3>Mobile Ordering App — Test Case Management & Functional QA</h3>
       <p>Designed structured test cases, executed functional test cycles, and reported defects using clear documentation.</p>
-      <a href="YOUR_SPREADSHEET_LINK_HERE" target="_blank" class="btn">View Spreadsheet</a>
-    </div>
+    <a href="YOUR_SPREADSHEET_LINK_HERE" target="_blank" class="btn">View Spreadsheet</a>
 
     <div class="project-card">
       <h3>Automation Scripts with Selenium (In Progress)</h3>
